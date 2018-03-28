@@ -6,6 +6,7 @@ library("adephylo")
 library("phylobase")
 library("ape")
 library("cluster")
+library("compactr")
 
 #Read in tree.
 tree<-read.tree("H5N1_flu.nwk")
